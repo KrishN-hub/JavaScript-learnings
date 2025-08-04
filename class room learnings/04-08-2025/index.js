@@ -45,3 +45,9 @@ const d = "moorthi mama";
 console.log(d);
 console.log(typeof d); // output will be string
 
+// concatination of string different ways & string formating
+let fname = "tharmi";
+let lname = "naaha";
+console.log(fname,lname); 
+console.log("my name is: "+ fname+" "+lname); // normal concatination
+console.log(`my name is: ${fname} ${lname}`); //  print using back tick (template literals) for except using concatination
