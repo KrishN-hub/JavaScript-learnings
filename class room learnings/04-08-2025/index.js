@@ -1,0 +1,32 @@
+// java basic print statement
+console.log("welcome to node.js");
+console.log('welcome to node.js');
+
+// declare variables
+var x = "seelan";
+console.log (x);
+
+//find the variable data type
+console.log(typeof(x));
+console.log(typeof x);
+
+//print various 
+console.log(x,"seelan");
+
+// declare multiple variables with same name
+var y = "seelan";
+var y = "karan";
+var y = "taran";
+console.log(y); // when we print it never show error, coz it is overwriting the previous value of y variable - output will be "taran"
+
+//  declare multiple variables with same name in 2015 standed escam script - es6 (modern java script)
+let z = "mandothari";
+// let z = "karan"; 
+// let z= "taran";
+console.log(z); // error will show when we try to redeclare the variable z - output will be "ReferenceError: Cannot redeclare variabl
+// without using var keywod
+
+// declare variables without using var keyword
+a = "madela"
+console.log(a);
+
