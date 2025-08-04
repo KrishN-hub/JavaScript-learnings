@@ -1,3 +1,4 @@
+
 // java basic print statement
 console.log("welcome to node.js");
 console.log('welcome to node.js');
@@ -19,7 +20,7 @@ var y = "karan";
 var y = "taran";
 console.log(y); // when we print it never show error, coz it is overwriting the previous value of y variable - output will be "taran"
 
-//  declare multiple variables with same name in 2015 standed escam script - es6 (modern java script)
+//  declare multiple variables with same name in 2015 standed ECMA script - es6 (modern java script)
 let z = "mandothari";
 // let z = "karan"; 
 // let z= "taran";
@@ -29,4 +30,18 @@ console.log(z); // error will show when we try to redeclare the variable z - out
 // declare variables without using var keyword
 a = "madela"
 console.log(a);
+
+var b;
+console.log(typeof b); // output will be undefined
+
+let c;
+console.log(typeof c); // output will be undefined
+
+/*
+const d;     // we can't declare variable without assigning value ( compair it into java final keyword)
+console.log(typeof d); 
+*/
+const d = "moorthi mama";
+console.log(d);
+console.log(typeof d); // output will be string
 
