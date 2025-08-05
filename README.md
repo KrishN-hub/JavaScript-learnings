@@ -12,5 +12,7 @@ learning java script fundamental and practices
 8. concatination of string different ways & string formating
 
 
-
+------05/08/2025-------
+1. check same variable declare using var, let and const
+2. javascript data types - number, string, boolean, null, undefined, object, array, symbol, function,  (consider it mainly {object ,array, function})
 

@@ -50,4 +50,4 @@ let fname = "tharmi";
 let lname = "naaha";
 console.log(fname,lname); 
 console.log("my name is: "+ fname+" "+lname); // normal concatination
-console.log(`my name is: ${fname} ${lname}`); //  print using back tick (template literals) for except using concatination
+console.log(`my name is: ${fname} ${lname}`); //  print using back tick (string template literals) for except using concatination(formatting)
