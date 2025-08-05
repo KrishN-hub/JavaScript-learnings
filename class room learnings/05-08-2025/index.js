@@ -53,3 +53,17 @@ console.log (g!==h); //true
 //typecasting
 console.log(g===Number(h)); //true
 console.log(String(g)===h); //true
+
+ //apply boolen logic
+console.log(Boolean()); //false
+console.log(Boolean(0)); //false
+console.log(Boolean(1)); //true
+console.log(Boolean(null)); //false
+console.log(Boolean(undefined)); //false
+console.log(Boolean("")); //false
+console.log(Boolean(NaN)); //false
+
+// truthy and falsy values using isNaN  () function 
+console.log(isNaN("meenu")); // true
+console.log(isNaN(10)); //false
+console.log(isNaN("")); //false

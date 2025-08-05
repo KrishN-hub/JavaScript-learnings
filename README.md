@@ -16,5 +16,7 @@ learning java script fundamental and practices
 1. check same variable declare using var, let and const
 2. javascript data types - number, string, boolean, null, undefined, object, array, symbol, function,  (consider it mainly {object ,array, function})
 3. check data types different aspects (== vs ===  and their type casting)
-
+4. apply boolen logic (AND, OR, NOT) on different data types
+5. truthy and falsy values using isNaN  () function 
+6. function with parameter and return value that two nummber add and return the result with validate the number is number or not
 
