@@ -41,3 +41,15 @@ console.log (typeof e); //number
 let f = Symbol("mandaan");
 console.log (f); // Symbol(mandaan)
 console.log (typeof f); //symbol
+
+// == vs ===   (=== is strict equality - checks both value and type)
+var g = 10;
+var h = "10";
+console.log(g==h); //true
+console.log(g===h); //false
+console.log (g!=h); //false
+console.log (g!==h); //true
+
+//typecasting
+console.log(g===Number(h)); //true
+console.log(String(g)===h); //true
