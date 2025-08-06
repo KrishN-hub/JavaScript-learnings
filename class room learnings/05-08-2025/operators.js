@@ -42,7 +42,7 @@ function calc(num1,num2,operator){
         calc('10',20 , "-");
         calc(10,'20', "+");
         calc('10','20',"*");
-        */
+
 
         function calc2(num1,num2,operator){
             if (isNaN(num1 ) && isNaN(num2)){
@@ -100,6 +100,58 @@ function calc(num1,num2,operator){
                 calc2(10,'20', "+");
                 calc2('10','20',"*");
                 calc2(10,20,"*");
+*/
+
+                // function -> operators ah vendura aathiri oru condition podonum
+console.log("---------------------------------------------");
+    function calc(num1,num2,operator){
+        if (isNaN(num1 ) && isNaN(num2)){
+            console.log ( "num1 & num2 are not number");
+            return; 
+            }
+            else if (isNaN(num1)){
+                console.log ( "num1 is not a number");
+                return;
+            }else if( isNaN(num2)){
+                console.log("num2 is not a number");
+                return;
+            }else{
+                num1 = Number(num1);
+                num2 = Number(num2);
+                if (operator === '+'){
+                    console.log(num1 + num2);
+                    return;
+                }else if (operator === '-'){
+                    console.log(num1 - num2);
+                    return;
+                }else if (operator === '*'){
+                    console.log(num1 * num2);
+                    return;
+                }else if (operator === '/'){
+                    if (num2 !== 0){
+                        console.log(num1 / num2);
+                        return;
+                    }else{
+                        console.log("num2 is zero");
+                        return;
+                        }
+                }else{
+                    console.log("operator is not valid");
+                    return;
+                }
+        }
+
+    }
+
+        calc("name 1","name 2","+");                      
+        calc("name",20, "+");
+        calc(10,"name", "+");
+        calc('10',20 , "-");
+        calc(10,'20', "+");
+        calc('10','20',"*");
+        calc(0,'20', "/");
+        calc(10,'0', "/");
+        calc(10,'20', "**");
 
 
 

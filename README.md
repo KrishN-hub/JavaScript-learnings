@@ -19,4 +19,11 @@ learning java script fundamental and practices
 4. apply boolen logic (AND, OR, NOT) on different data types
 5. truthy and falsy values using isNaN  () function 
 6. function with parameter and return value that two nummber add and return the result with validate the number is number or not
+7. if , else if , else statement with different data types
+
+------06/08/2025-------
+1. assign value for functions 
+2. arrow function expression 
+3. IIFE (immediately invoked function expression) deafault & with parameter
+4. callback function with parameter & return value
 
