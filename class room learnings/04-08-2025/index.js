@@ -5,14 +5,14 @@ console.log('welcome to node.js');
 
 // declare variables
 var x = "seelan";
-console.log (x);
+console.log (x); // prints: seelan
 
 //find the variable data type
-console.log(typeof(x));
-console.log(typeof x);
+console.log(typeof(x));// string
+console.log(typeof x); // 
 
 //print various 
-console.log(x,"seelan");
+console.log(x,"seelan"); // prints: seelan seelan
 
 // declare multiple variables with same name
 var y = "seelan";
@@ -24,8 +24,12 @@ console.log(y); // when we print it never show error, coz it is overwriting the 
 let z = "mandothari";
 // let z = "karan"; 
 // let z= "taran";
-console.log(z); // error will show when we try to redeclare the variable z - output will be "ReferenceError: Cannot redeclare variabl
+console.log(z); // error will show when we try to redeclare the variable z - output will be "ReferenceError: Cannot redeclare variable  mutiple times"
 // without using var keywod
+let z = "mandothari";
+let z = "karan"; // error will show when we try to redeclare the variable z
+// let z = "taran";
+console.log(z); // output will be "karan"
 
 // declare variables without using var keyword
 a = "madela"
