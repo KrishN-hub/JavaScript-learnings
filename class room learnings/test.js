@@ -10,7 +10,6 @@ getResult = average => {
     else if (average >= 60) return "D";
     else return "F";
 };
-
 //--------------------------------------------------------------------------
 calcStatsRest = (totalCb, averageCb, resultCb, ...marks) => {
     if (marks.length === 0) {
@@ -33,5 +32,3 @@ console.log("-----------------------------------------");
 calcStatsRest(getTotal, getAverage, getResult, 60, 50, 40);
 console.log("-----------------------------------------");
 calcStatsRest();
-console.log("-------------------------------------------");
-// calcStatsRest(getTotal, getAverage, 85, 78, 92,100); // Error

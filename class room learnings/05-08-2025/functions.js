@@ -17,7 +17,7 @@ function getmyname(){
  getmyname( "Aalavanthaan"); 
  */
 /*
- // function with return value
+ // function with backtick
  function getmyname(name){
     console.log(`my name is  ${name}`);
 }
@@ -26,7 +26,7 @@ function getmyname(){
  getmyname( );
 */
 /*
-// function with return value and parameter
+// function with return deafault value and parameter
  function getmyname(name="enter your name" ){
     console.log(`my name is  ${name}`);
 }
@@ -72,4 +72,4 @@ function sum(num1,num2){
                         sum('10',20);
                         sum(10,'20');
                         sum('10','20');
-                                    
+                                    // wrong

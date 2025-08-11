@@ -5,10 +5,12 @@ function TestPara(...number){
     console.log(typeof number);  // number is an array
 
 }
-TestPara(10,20,30,40,50,60,70); 
+TestPara(10,20,30,40,50,60,70);  // 
 
-// calculate total sum of array elements intro
+
 console.log("--------for loop------------");
+// get array of all elements
+
 function TestTotal(...number){
     let sum = 0;
     for (let i = 0; i < number.length; i++) {
@@ -21,7 +23,7 @@ function TestTotal(...number){
     
 
     console.log("--------for of------------");
-// for of 
+// for of  loop is used to iterate over array elements
 
 function TestForOf(...numb){
 for(let i of numb) {
@@ -41,9 +43,9 @@ function TestForOf(...numb){
 TestForOf(10,20,30,40,50,60,70);
 
 
-// for in 
-console.log("--------for in------------");
 
+console.log("--------for in------------");
+// for in  loop is used to iterate over array index
 
 function TestForIn(...num){
 for (let i in num) {
@@ -64,7 +66,7 @@ function TestForEach(...marks) {
         TestForEach(10,20,30,40,50,60,70); 
 
 
-// reduce function
+// reduce function 
 console.log("--------reduce function------------");
 function TestReduce(...marks) {
     let sum = marks.reduce((a,b) => a+b,0); 

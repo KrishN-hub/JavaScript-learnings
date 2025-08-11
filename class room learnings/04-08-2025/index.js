@@ -26,9 +26,9 @@ let z = "mandothari";
 // let z= "taran";
 console.log(z); // error will show when we try to redeclare the variable z - output will be "ReferenceError: Cannot redeclare variable  mutiple times"
 // without using var keywod
-let z = "mandothari";
-let z = "karan"; // error will show when we try to redeclare the variable z
-// let z = "taran";
+let zz = "mandothari";
+//let zz = "karan"; // error will show when we try to redeclare the variable z
+// let zz = "taran";
 console.log(z); // output will be "karan"
 
 // declare variables without using var keyword
