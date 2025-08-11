@@ -31,3 +31,6 @@ learning java script fundamental and practices
 1. calculate total sum of array elements using for loop, while loop, for each loop, map function, reduce function
 2. get array element by index using for loop, while loop, for each loop, map function, reduce function
 3. loops - for, while, for each, do while, for in, for of, for of with
+
+------11/08/2025-------
+1. modules - import, export( deafult export , named export, export default, export default with named export)

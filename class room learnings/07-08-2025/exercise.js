@@ -23,7 +23,7 @@ calcStatsRest = (totalCb, averageCb, resultCb, ...marks) => {
     let result = resultCb(average);
 
     console.log(`Total: ${total}`);
-    console.log(`Average: ${average}`); // .toFixed(2)
+    console.log(`Average: ${average}`); // .toFixed(2)?
     console.log(`Grade: ${result}`);
 };
 
