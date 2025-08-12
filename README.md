@@ -34,3 +34,8 @@ learning java script fundamental and practices
 
 ------11/08/2025-------
 1. modules - import, export( deafult export , named export, export default, export default with named export)
+
+------12/08/2025-------
+1. objects - declare, access
+2. access key & value of object using for in loop, for of loop, Object.keys(), Object.values(), Object.entries
+3. 
